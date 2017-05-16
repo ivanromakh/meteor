@@ -4,7 +4,7 @@ import { Tasks } from '../api/tasks.js';
 
 import './body1.html';
 
- 
+
 Template.body.helpers({
   tasks() {
     return Tasks.find({});
